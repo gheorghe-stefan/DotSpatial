@@ -3,7 +3,9 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0-windows</TargetFramework>
 		<OutputPath>bin\</OutputPath>
-		<IsPackable>false</IsPackable>		
+		<IsPackable>false</IsPackable>
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>$(ProjectDir)..\..\DotSpatial.snk</AssemblyOriginatorKeyFile>
 	</PropertyGroup>
 
 	<ItemGroup>

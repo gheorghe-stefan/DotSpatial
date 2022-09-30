@@ -4,6 +4,9 @@
 		<TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
 		<OutputPath>$(ProjectDir)..\..\bin\$(Configuration)\$(TargetFramework)\</OutputPath>
 		<LangVersion>10.0</LangVersion>
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>$(ProjectDir)..\..\DotSpatial.snk</AssemblyOriginatorKeyFile>
+		<VersionPrefix>4.0.1</VersionPrefix>
 	</PropertyGroup>
 
 	<ItemGroup>

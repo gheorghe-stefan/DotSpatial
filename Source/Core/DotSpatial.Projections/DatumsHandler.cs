@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Xml.Serialization;
 
-[assembly: InternalsVisibleTo("DotSpatial.Projections.Tests")]
+[assembly: InternalsVisibleTo("DotSpatial.Projections.Tests, PublicKey=002400000480000094000000060200000024000052534131000400000100010015fd901dc870e64bcc937e4a0d1e063bd0570dfdc403b33c02e7b56bc603574cc95fb4ac526de29235d28e7806e2048e254422d24fcbc0cd0a22068a57210fcafcb8a671c7386887ebfa0716cab3cda2dec8a871ffe1ab4baa09a142e69450d549ebe4c032856a711c2132087339d81e8271f61eebfad95cacaa7fd0d17e35d0")]
 namespace DotSpatial.Projections
 {
     internal class DatumsHandler
